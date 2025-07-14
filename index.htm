@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>📜 SnowBot - Commandes Disponibles</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+      line-height: 1.6;
+      padding: 30px;
+    }
+    h1, h2 {
+      color: #00d0ff;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    .cmd {
+      background-color: #1e1e1e;
+      padding: 8px 12px;
+      margin: 5px 0;
+      border-left: 4px solid #00d0ff;
+      border-radius: 4px;
+      white-space: pre-wrap;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <h1>📜 SnowBot - Commandes Disponibles</h1>
+
+  <section>
+    <h2>🛠️ Modération</h2>
+    <div class="cmd">+bl : Bannir un membre</div>
+    <div class="cmd">+unbl : Débannir un membre</div>
+    <div class="cmd">+lock : Verrouiller un salon</div>
+    <div class="cmd">+unlock : Déverrouiller un salon</div>
+    <div class="cmd">+clear : Supprimer des messages</div>
+    <div class="cmd">+renew : Renouveler un salon</div>
+    <div class="cmd">+close : Fermer un ticket</div>
+    <div class="cmd">+rename : Renommer un ticket</div>
+    <div class="cmd">+banlist : Voir la liste des bans</div>
+    <div class="cmd">+addrole @membre (rôle) : Ajouter un rôle à un membre</div>
+    <div class="cmd">+delrole @membre : Retirer tous les rôles d’un membre</div>
+    <div class="cmd">+warn @membre [raison] : Avertir un membre ou afficher ses sanctions</div>
+    <div class="cmd">+deltwarn @membre : Supprimer le dernier avertissement du membre</div>
+    <div class="cmd">+deltwarnhall : Supprimer tous les avertissements (admin uniquement)</div>
+    <div class="cmd">+mute @membre [raison] [durée]</div>
+    <div class="cmd">+unmute @membre</div>
+    <div class="cmd">+nick @membre</div>
+    <div class="cmd">+voicemoov @membre &lt;ID salon&gt;</div>
+    <div class="cmd">+voicekick @membre</div>
+  </section>
+
+  <section>
+    <h2>🧰 Utilitaire</h2>
+    <div class="cmd">+addemoji</div>
+    <div class="cmd">+botinfo</div>
+    <div class="cmd">+roll [max]</div>
+    <div class="cmd">+hug [@membre]</div>
+    <div class="cmd">+kiss [@membre]</div>
+    <div class="cmd">+photo_aleatoire</div>
+    <div class="cmd">+story</div>
+    <div class="cmd">+banner [utilisateur]</div>
+    <div class="cmd">+pdp</div>
+    <div class="cmd">+vc</div>
+    <div class="cmd">+speed</div>
+    <div class="cmd">+music</div>
+    <div class="cmd">+nrj [id_salons]</div>
+    <div class="cmd">+skyrock [id_salons]</div>
+    <div class="cmd">+stopradio</div>
+  </section>
+
+  <section>
+    <h2>🎟️ Ticket</h2>
+    <div class="cmd">+ticket</div>
+  </section>
+
+  <section>
+    <h2>🔧 Owner (1/2)</h2>
+    <div class="cmd">filteradd &lt;mot&gt;</div>
+    <div class="cmd">+filterremove</div>
+    <div class="cmd">+filterlist</div>
+    <div class="cmd">giveway</div>
+    <div class="cmd">+say</div>
+    <div class="cmd">+gg</div>
+    <div class="cmd">+lrm &lt;role&gt;</div>
+    <div class="cmd">+boosters</div>
+    <div class="cmd">+namebot &lt;nom&gt;</div>
+    <div class="cmd">+setpic &lt;url&gt;</div>
+    <div class="cmd">+wl</div>
+    <div class="cmd">+unwl</div>
+    <div class="cmd">+antilien</div>
+    <div class="cmd">+log</div>
+    <div class="cmd">+invisible</div>
+    <div class="cmd">+blockinvite</div>
+    <div class="cmd">• on / off / max</div>
+  </section>
+
+  <section>
+    <h2>🔧 Owner (2/2)</h2>
+    <div class="cmd">+wl_liste</div>
+    <div class="cmd">+servinfo</div>
+    <div class="cmd">+listrole</div>
+    <div class="cmd">+hide &lt;id_salon&gt;</div>
+    <div class="cmd">+unhide &lt;id_salon&gt;</div>
+    <div class="cmd">+hideall</div>
+    <div class="cmd">+unhideall</div>
+    <div class="cmd">+slowmode &lt;#salon&gt; &lt;secondes&gt;</div>
+    <div class="cmd">+temprole &lt;@membre&gt; &lt;@role&gt; &lt;durée&gt;</div>
+    <div class="cmd">+untemprole &lt;@membre&gt; &lt;@role&gt;</div>
+    <div class="cmd">+adminlist</div>
+    <div class="cmd">+antibot &lt;on|off|max&gt;</div>
+    <div class="cmd">+joinrole @rôle</div>
+    <div class="cmd">+massiverole @rôle</div>
+    <div class="cmd">+massiveremove @rôle</div>
+  </section>
+
+  <section>
+    <h2>🛡️ Soutien</h2>
+    <div class="cmd">+soutien</div>
+  </section>
+
+  <section>
+    <h2>🔁 Redémarrage</h2>
+    <div class="cmd">+rdm</div>
+  </section>
+
+  <section>
+    <h2>📋 Logs</h2>
+    <div class="cmd">+logs</div>
+  </section>
+
+  <p><strong>🤖 Ce bot possède 74 commandes.<br>📌 SnowBot - développé par Mayzoxe</strong></p>
+
+  <footer>&copy; 2025 Mayzoxe</footer>
+</body>
+</html>
